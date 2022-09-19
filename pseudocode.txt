@@ -1,0 +1,23 @@
+READ AND WRITE "jumlah" with number
+READ AND WRITE "harga" with number
+READ AND WRITE "Total" with number
+READ AND WRITE "bayar" with string
+
+store "total" with CALCULATE "jumlah" add by "harga"
+store "bayar" with "non tunai"
+print "pilih makanan yang anda ingin"
+print "masukan jumlah makanan:"
+print "total"
+
+if "total" == "bayar"
+	print "transfer uang anda melalui rekening"
+else
+	print "tunggu pesanan anda dan bayar ditempat"
+
+print "Terimakasih silahkan tunggu pesanan anda"
+
+
+
+
+
+
