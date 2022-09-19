@@ -1,11 +1,10 @@
-READ AND WRITE "makanan" with string
 READ AND WRITE "jumlah" with number
 READ AND WRITE "harga" with number
 READ AND WRITE "Total" with number
 READ AND WRITE "bayar" with string
 
-store "makanan" with "menu makanan"
 store "total" with CALCULATE "jumlah" add by "harga"
+store "bayar" with "non tunai"
 print "pilih makanan yang anda ingin"
 print "masukan jumlah makanan:"
 print "total"
